@@ -4,7 +4,7 @@ async function aiConvo(bodyData){
     const options = {
         method : "POST",
       headers: {
-        Authorization: "Bearer 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" ,
+        Authorization: "Bearer" ,
         "Content-Type" : "application/json"
       },
       body: JSON.stringify(bodyData)
